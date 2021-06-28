@@ -1,0 +1,25 @@
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_extras.so
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/servo_state_publisher
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/visualization
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/mavros_extras.pc
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/cmake.lock, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/lib/libmavros_extras.so, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavros_extras.so)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/lib/mavros_extras/visualization, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/visualization)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/servo_state_publisher)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/mavros_extras.pc)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake)
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavros_extras.so
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/visualization
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/mavros_extras/servo_state_publisher
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/mavros_extras.pc
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Already unlinked: {}

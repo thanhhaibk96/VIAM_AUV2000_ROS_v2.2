@@ -1,0 +1,17 @@
+[01m[K/home/hai_bker96/AUV_GUI/mavlink_ros/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::handle_sys_status(const mavlink_message_t*, mavlink::common::msg::SYS_STATUS&)[m[K’:
+[01m[K/home/hai_bker96/AUV_GUI/mavlink_ros/src/mavros/mavros/src/plugins/sys_status.cpp:755:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SYS_STATUS[m[K’ has no member named ‘[01m[Kvoltage_battery[m[K’; did you mean ‘[01m[Kvoltage_battery_head[m[K’?
+   float volt = stat.[01;31m[Kvoltage_battery[m[K / 1000.0f; // mV
+                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+                     [32m[Kvoltage_battery_head[m[K
+[01m[K/home/hai_bker96/AUV_GUI/mavlink_ros/src/mavros/mavros/src/plugins/sys_status.cpp:756:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SYS_STATUS[m[K’ has no member named ‘[01m[Kcurrent_battery[m[K’; did you mean ‘[01m[Kcurrent_battery_head[m[K’?
+   float curr = stat.[01;31m[Kcurrent_battery[m[K / 100.0f; // 10 mA or -1
+                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+                     [32m[Kcurrent_battery_head[m[K
+[01m[K/home/hai_bker96/AUV_GUI/mavlink_ros/src/mavros/mavros/src/plugins/sys_status.cpp:757:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mavlink::common::msg::SYS_STATUS[m[K’ has no member named ‘[01m[Kbattery_remaining[m[K’; did you mean ‘[01m[Kbattery_remaining_head[m[K’?
+   float rem = stat.[01;31m[Kbattery_remaining[m[K / 100.0f; // or -1
+                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                    [32m[Kbattery_remaining_head[m[K
+make[2]: *** [CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/mavros_plugins.dir/all] Error 2
+make: *** [all] Error 2

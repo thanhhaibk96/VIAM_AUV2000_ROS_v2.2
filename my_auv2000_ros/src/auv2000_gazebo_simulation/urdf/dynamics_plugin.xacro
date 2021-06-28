@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="dynamics_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="dynamics_plugin" filename="libdynamics_plugin.so">
+      <bodyName> base_link </bodyName>
+      <waterLevel> 0 </waterLevel>
+      <waterDensity> 1010 </waterDensity>
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <wave_model> ocean_waves </wave_model>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,76 @@
+<launch>
+    <param name="ned_lat" value="10.7744287" />
+    <param name="ned_lon" value="106.6592230" />
+
+    <node pkg="gps_dvl_ins" type="gps_dvl_ins"
+        name="gps_dvl_ins" output="screen" >
+        <param name="gps_dvl_ins_device" value="/dev/ttyUSB_GPS_DVL_INS" />
+        <param name="gps_dvl_ins_baurate" value="115200" />
+        <param name="calibration_mode" value="true" />
+        <param name="sample_time" value="100" />
+        <param name="log_file_direction" value="/home/viamlab/GPS_DVL_INS_Calib.txt" />
+
+        <!-- Calibration for GPS-DVL-INS -->
+        <param name="calibration_done" type="bool" value="true" />
+        <!-- ACC -->
+        <param name="acc_ref_gain_0" type="double" value="1.14" />
+        <param name="acc_ref_gain_1" type="double" value="2.14" />
+        <param name="acc_ref_gain_2" type="double" value="3.14" />
+        <param name="acc_ref_gain_3" type="double" value="4.14" />
+        <param name="acc_ref_gain_4" type="double" value="5.14" />
+        <param name="acc_ref_gain_5" type="double" value="6.14" />
+        <param name="acc_ref_gain_6" type="double" value="7.14" />
+        <param name="acc_ref_gain_7" type="double" value="8.14" />
+        <param name="acc_ref_gain_8" type="double" value="9.14" />
+
+        <param name="acc_ref_offset_0" type="double" value="10.14" />
+        <param name="acc_ref_offset_1" type="double" value="11.14" />
+        <param name="acc_ref_offset_2" type="double" value="12.14" />
+        <!-- MAG -->
+        <param name="mag_ref_gain_0" type="double" value="13.14" />
+        <param name="mag_ref_gain_1" type="double" value="14.14" />
+        <param name="mag_ref_gain_2" type="double" value="15.14" />
+        <param name="mag_ref_gain_3" type="double" value="16.14" />
+        <param name="mag_ref_gain_4" type="double" value="17.14" />
+        <param name="mag_ref_gain_5" type="double" value="18.14" />
+        <param name="mag_ref_gain_6" type="double" value="19.14" />
+        <param name="mag_ref_gain_7" type="double" value="20.14" />
+        <param name="mag_ref_gain_8" type="double" value="21.14" />
+
+        <param name="mag_ref_offset_0" type="double" value="22.14" />
+        <param name="mag_ref_offset_1" type="double" value="23.14" />
+        <param name="mag_ref_offset_2" type="double" value="24.14" />
+
+        <!-- GYRO -->
+        <param name="gyro_offset_0" type="double" value="25.14" />
+        <param name="gyro_offset_1" type="double" value="26.14" />
+        <param name="gyro_offset_2" type="double" value="27.14" />
+
+        <!-- SP -->
+        <param name="sp_0" type="double" value="28.14" />
+        <param name="sp_1" type="double" value="29.14" />
+        <param name="sp_2" type="double" value="30.14" />
+
+        <!-- SV -->
+        <param name="sv_0" type="double" value="31.14" />
+        <param name="sv_1" type="double" value="32.14" />
+        <param name="sv_2" type="double" value="33.14" />
+
+        <!-- SD -->
+        <param name="sd_0" type="double" value="34.14" />
+        <param name="sd_1" type="double" value="35.14" />
+        <param name="sd_2" type="double" value="36.14" />
+
+        <!-- QR -->
+        <param name="qr_0" type="double" value="37.14" />
+        <param name="qr_1" type="double" value="38.14" />
+        <param name="qr_2" type="double" value="39.14" />
+        <param name="qr_3" type="double" value="40.14" />
+
+        <!-- QAG -->
+        <param name="qag_0" type="double" value="41.14" />
+        <param name="qag_1" type="double" value="42.14" />
+        <param name="qag_2" type="double" value="43.14" />
+        <param name="qag_3" type="double" value="44.14" />
+    </node>
+</launch>

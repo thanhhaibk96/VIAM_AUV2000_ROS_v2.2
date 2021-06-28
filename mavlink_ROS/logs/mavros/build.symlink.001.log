@@ -1,0 +1,33 @@
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/mavros/cmake/mavrosConfig-version.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/mavros/cmake/mavrosConfig.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros.so
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros_plugins.so
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/python2.7/dist-packages/mavros/__init__.py
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/pkgconfig/mavros.pc
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/mavros/gcs_bridge
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/mavros/mavros_node
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/cmake.lock, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/share/mavros/cmake/mavrosConfig-version.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros/cmake/mavrosConfig-version.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/share/mavros/cmake/mavrosConfig.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros/cmake/mavrosConfig.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/libmavros.so, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros.so)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/libmavros_plugins.so, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_plugins.so)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/python2.7/dist-packages/mavros/__init__.py, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/python2.7/dist-packages/mavros/__init__.py)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/pkgconfig/mavros.pc, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/mavros.pc)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/mavros/gcs_bridge, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros/gcs_bridge)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/mavros/lib/mavros/mavros_node, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros/mavros_node)
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros/cmake/mavrosConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/mavros/cmake/mavrosConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros.so
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_plugins.so
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/python2.7/dist-packages/mavros/__init__.py
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/mavros.pc
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros/gcs_bridge
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/mavros/mavros_node
+Already unlinked: {}

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot name="mass_shifter_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="mass_shifter_plugin" filename="libmass_shifter_plugin.so">
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <setMassShifterService> command/set_mass_shifter </setMassShifterService>
+      <cmdTopic> mass_shifter/cmd </cmdTopic>
+      <pubTopic> mass_shifter/position </pubTopic>
+      <cmdKeyboardTopic> mass_shifter/keyboard_cmd </cmdKeyboardTopic>
+      <massShifter>
+      	<linkName> mass_shifter_link </linkName>
+      	<massShifterJointName> mass_shifter_joint </massShifterJointName>
+      	<upperLimit> 0.2 </upperLimit>
+      	<lowerLimit> -0.2 </lowerLimit>
+    	</massShifter>
+    </plugin>
+  </gazebo>
+  
+
+
+</robot>

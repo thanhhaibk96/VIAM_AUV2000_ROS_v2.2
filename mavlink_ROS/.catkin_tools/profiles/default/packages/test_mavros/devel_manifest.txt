@@ -1,0 +1,7 @@
+mavros/test_mavros
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/cmake.lock /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/./cmake.lock
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/lib/libmavros_sitl_test.so /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros_sitl_test.so
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/lib/test_mavros/sitl_test_node /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/test_mavros/sitl_test_node
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/pkgconfig/test_mavros.pc

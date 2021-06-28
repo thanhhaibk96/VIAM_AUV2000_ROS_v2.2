@@ -1,0 +1,125 @@
+<launch>
+  <param name="ned_lat" value="10.7744287" />
+  <param name="ned_lon" value="106.6592230" />
+
+  <param name="max_angle_rudder" value="60" />
+  <param name="max_thrust_speed" value="500" />
+  <param name="max_pistol_dutycycle" value="40" />
+  <param name="step_pistol_dutycycle" value="20" />
+  <param name="max_mass_dutycycle" value="50" />
+  <param name="step_mass_dutycycle" value="20" />
+
+  <node pkg="gcs_transceiver" type="gcs_transceiver"
+        name="gcs_transceiver" >
+    <param name="main_period" value="1" />
+    <param name="main_url" value="udp://192.168.100.101:14551@192.168.100.102:14550" />
+    <param name="autopilot_sysid" value="1" />
+    <param name="gcs_sysid" value="255" />
+  </node>
+
+  <node pkg="my_auv2000_actuators" type="my_auv2000_actuators"
+        name="my_auv2000_actuators" output="screen" >
+    <param name="can_device" value="can0" />
+    <param name="sample_time" value="0.5" />
+  </node>
+
+  <!-- Read arguments -->
+  <!-- <arg name="port" default="/dev/ttyUSB0"/>
+  <arg name="frame" default="sonar"/>
+
+  <node name="tritech_micron"
+        pkg="tritech_micron"
+        type="scan.py"
+        output="screen"
+        respawn="true"
+        respawn_delay="5"> -->
+    <!-- Set ROS parameters -->
+    <!-- <param name="port" value="$(arg port)"/>
+    <param name="frame" value="$(arg frame)"/>
+  </node> -->
+
+  <!-- This node description you can take from usb_cam-test.launch for camera 1-->
+  <node name="usb_cam_sony" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="/dev/video0" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+  </node> 
+
+  <!-- This node will launch web video server -->
+  <node name="web_video_server_sony" pkg="web_video_server" type="web_video_server" />
+
+  <node pkg="gps_dvl_ins" type="gps_dvl_ins"
+        name="gps_dvl_ins" output="screen" >
+        <param name="gps_dvl_ins_device" value="/dev/ttyUSB_GPS_DVL_INS" />
+        <param name="gps_dvl_ins_baurate" value="115200" />
+        <param name="calibration_mode" value="true" />
+        <param name="sample_time" value="100" />
+        <param name="log_file_direction" value="/home/viamlab/GPS_DVL_INS_Calib.txt" />
+
+        <!-- Calibration for GPS-DVL-INS -->
+        <param name="calibration_done" type="bool" value="true" />
+        <!-- ACC -->
+        <param name="acc_ref_gain_0" type="double" value="1.14" />
+        <param name="acc_ref_gain_1" type="double" value="2.14" />
+        <param name="acc_ref_gain_2" type="double" value="3.14" />
+        <param name="acc_ref_gain_3" type="double" value="4.14" />
+        <param name="acc_ref_gain_4" type="double" value="5.14" />
+        <param name="acc_ref_gain_5" type="double" value="6.14" />
+        <param name="acc_ref_gain_6" type="double" value="7.14" />
+        <param name="acc_ref_gain_7" type="double" value="8.14" />
+        <param name="acc_ref_gain_8" type="double" value="9.14" />
+
+        <param name="acc_ref_offset_0" type="double" value="10.14" />
+        <param name="acc_ref_offset_1" type="double" value="11.14" />
+        <param name="acc_ref_offset_2" type="double" value="12.14" />
+        <!-- MAG -->
+        <param name="mag_ref_gain_0" type="double" value="13.14" />
+        <param name="mag_ref_gain_1" type="double" value="14.14" />
+        <param name="mag_ref_gain_2" type="double" value="15.14" />
+        <param name="mag_ref_gain_3" type="double" value="16.14" />
+        <param name="mag_ref_gain_4" type="double" value="17.14" />
+        <param name="mag_ref_gain_5" type="double" value="18.14" />
+        <param name="mag_ref_gain_6" type="double" value="19.14" />
+        <param name="mag_ref_gain_7" type="double" value="20.14" />
+        <param name="mag_ref_gain_8" type="double" value="21.14" />
+
+        <param name="mag_ref_offset_0" type="double" value="22.14" />
+        <param name="mag_ref_offset_1" type="double" value="23.14" />
+        <param name="mag_ref_offset_2" type="double" value="24.14" />
+
+        <!-- GYRO -->
+        <param name="gyro_offset_0" type="double" value="25.14" />
+        <param name="gyro_offset_1" type="double" value="26.14" />
+        <param name="gyro_offset_2" type="double" value="27.14" />
+
+        <!-- SP -->
+        <param name="sp_0" type="double" value="28.14" />
+        <param name="sp_1" type="double" value="29.14" />
+        <param name="sp_2" type="double" value="30.14" />
+
+        <!-- SV -->
+        <param name="sv_0" type="double" value="31.14" />
+        <param name="sv_1" type="double" value="32.14" />
+        <param name="sv_2" type="double" value="33.14" />
+
+        <!-- SD -->
+        <param name="sd_0" type="double" value="34.14" />
+        <param name="sd_1" type="double" value="35.14" />
+        <param name="sd_2" type="double" value="36.14" />
+
+        <!-- QR -->
+        <param name="qr_0" type="double" value="37.14" />
+        <param name="qr_1" type="double" value="38.14" />
+        <param name="qr_2" type="double" value="39.14" />
+        <param name="qr_3" type="double" value="40.14" />
+
+        <!-- QAG -->
+        <param name="qag_0" type="double" value="41.14" />
+        <param name="qag_1" type="double" value="42.14" />
+        <param name="qag_2" type="double" value="43.14" />
+        <param name="qag_3" type="double" value="44.14" />
+    </node>
+</launch>

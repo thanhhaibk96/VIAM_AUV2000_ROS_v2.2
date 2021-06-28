@@ -1,0 +1,6 @@
+Header header
+motor_stamped pistol_status
+motor_stamped mass_shifter_status
+bms_stamped bms_status
+altimeter_stamped altimeter_status
+anti_rolling_stamped roll_motor_status

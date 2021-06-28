@@ -1,0 +1,4 @@
+make[2]: *** [viam_auv2000-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/viam_auv2000.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

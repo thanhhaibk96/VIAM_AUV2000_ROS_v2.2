@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target slugs.xml-v2.0[0m
+[35m[1mScanning dependencies of target viam_auv2000.xml-v2.0[0m
+[35m[1mScanning dependencies of target uAvionix.xml-v2.0[0m
+[  4%] [34m[1mGenerating slugs-v2.0-cxx-stamp[0m
+[  8%] [34m[1mGenerating viam_auv2000-v2.0-cxx-stamp[0m
+[ 12%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/slugs.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/slugs.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/viam_auv2000.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/viam_auv2000.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Merged enum MAV_CMD
+Found 240 MAVLink message types in 2 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/slugs
+Found 223 MAVLink message types in 2 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/common
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/icarous.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Generating C implementation in directory include/v2.0/common
+ERROR: Duplicate enum names:
+	MAV_CMD.MAV_CMD_SET_AUV_CONTROLLER = 533 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml:2343
+	MAV_CMD.MAV_CMD_SET_AUV_CONTROLLER = 533 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/viam_auv2000.xml:13
+CMakeFiles/viam_auv2000.xml-v2.0.dir/build.make:62: recipe for target 'viam_auv2000-v2.0-cxx-stamp' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/viam_auv2000.xml-v2.0.dir/all' failed
+make[2]: *** [viam_auv2000-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/viam_auv2000.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/slugs
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 12%] Built target uAvionix.xml-v2.0
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 12%] Built target slugs.xml-v2.0
+Makefile:117: recipe for target 'all' failed
+make: *** [all] Error 2

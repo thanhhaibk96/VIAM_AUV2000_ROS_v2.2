@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot name="model"   xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+
+  <xacro:include filename="$(find auv2000_description)/urdf/base.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/nose.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/wing.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/tail.xacro" />
+  <!--<xacro:include filename="$(find auv2000_description)/urdf/sonar.xacro" />-->
+  <xacro:include filename="$(find auv2000_description)/urdf/dvl.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/propeller.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/rudder.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/mass_shifter.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/irm1.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/irm2.xacro" />
+  <xacro:include filename="$(find auv2000_description)/urdf/piston.xacro" />
+   <xacro:include filename="$(find auv2000_description)/urdf/gps_dvl_ins.xacro" />
+
+
+
+</robot>

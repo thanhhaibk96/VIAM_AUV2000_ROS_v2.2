@@ -1,0 +1,46 @@
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./setup.zsh
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./local_setup.sh
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./_setup_util.py
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./cmake.lock
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./local_setup.bash
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./local_setup.zsh
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./env.sh
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./setup.bash
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./setup.sh
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./_setup_util.py)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.sh)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.bash)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/setup.sh, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.sh)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.zsh)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/setup.zsh, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.zsh)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/setup.bash, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.bash)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/env.sh, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./env.sh)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/cmake.lock, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

@@ -1,0 +1,8 @@
+<launch>
+        <arg name="rtsp_link" default="rtsp://169.254.219.239:554/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp?real_stream" />
+        <arg name="name" default="record_camera" />
+        <node pkg="camera"
+                type="run_Record_Camera.sh" name="run_Record_Camera"
+                output="screen" args="$(arg rtsp_link) $(arg name)"
+        />
+</launch>

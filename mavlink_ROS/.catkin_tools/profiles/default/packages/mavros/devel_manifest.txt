@@ -1,0 +1,10 @@
+mavros/mavros
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/cmake.lock /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/./cmake.lock
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/share/mavros/cmake/mavrosConfig-version.cmake /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/mavros/cmake/mavrosConfig-version.cmake
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/share/mavros/cmake/mavrosConfig.cmake /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/mavros/cmake/mavrosConfig.cmake
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/libmavros.so /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros.so
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/libmavros_plugins.so /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros_plugins.so
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/python2.7/dist-packages/mavros/__init__.py /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/python2.7/dist-packages/mavros/__init__.py
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/pkgconfig/mavros.pc /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/pkgconfig/mavros.pc
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/mavros/gcs_bridge /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/mavros/gcs_bridge
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/.private/mavros/lib/mavros/mavros_node /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/mavros/mavros_node

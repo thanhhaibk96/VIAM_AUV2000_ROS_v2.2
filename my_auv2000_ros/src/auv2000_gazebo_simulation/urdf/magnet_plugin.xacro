@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot name="imu_plugin"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo reference="footprint_link">
+    <sensor type="magnetometer" name="magnetometer" >
+      <always_on> true </always_on>
+      <visualize> false </visualize>
+      <update_rate> 50.0 </update_rate>
+      <magnetometer>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+            <bias_mean>0.0</bias_mean>
+            <bias_stddev>0.0</bias_stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+            <bias_mean>0.0</bias_mean>
+            <bias_stddev>0.0</bias_stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+            <bias_mean>0.0</bias_mean>
+            <bias_stddev>0.0</bias_stddev>
+          </noise>
+        </z>
+      </magnetometer>
+      
+      <plugin name="magnet_plugin" filename="libmagnet_plugin.so" >
+        <topicName> ins/magnet </topicName>
+        <frameName> footprint_link </frameName>
+        <offset> 0.0 </offset>
+        <drift> 1e-8 </drift>
+        <driftFrequency> 0.000278 </driftFrequency>
+        <gaussianNoise> 1.5e-7 </gaussianNoise>
+      </plugin>
+    </sensor>
+  </gazebo>
+</robot>

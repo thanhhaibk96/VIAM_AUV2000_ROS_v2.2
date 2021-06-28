@@ -1,0 +1,6 @@
+float32 batteryTotal
+float32 batteryCapacity
+float32 batteryUsed
+float32 batteryPercentage
+float32 batteryCurrent
+float32 baterryVoltage

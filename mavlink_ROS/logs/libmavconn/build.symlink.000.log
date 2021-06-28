@@ -1,0 +1,21 @@
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavconn.so
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/libmavconn.pc
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/cmake.lock, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/lib/libmavconn.so, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavconn.so)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/libmavconn.pc)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig.cmake)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconn-extras.cmake)
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavconn.so
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/libmavconn.pc
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Already unlinked: {}

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<robot name="base" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!-- Written by Ngo An Thuyen HCMUT - ViamLab 3-15-2021-->
+<!-- FOOTPRINT -->
+  <link name="footprint_link" >
+   <inertial>
+      <mass value="0.0001" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+                iyy="0.0001" iyz="0.0" 
+                izz="0.0001" />
+  </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <box size="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+   </link>
+<!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://auv2000_description/dae/hull.dae"/>
+      </geometry>
+
+    </visual>
+    <!-- AUV Hull -->
+    <collision name="Hull">
+      <origin xyz="0 0 0" rpy="0 1.570796327 0" />
+      <geometry>
+        <cylinder length="1.729" radius="0.125" />
+      </geometry>
+    </collision>
+
+    <inertial>
+     <!-- <mass value="62.275930259"/> -->
+          <mass value="62.075930259"/>
+      <origin xyz="0.155 0 0" rpy=" 0 0 0"/>
+      <inertia ixx="0.55947" ixy="0.0" ixz="0.0" 
+               iyy="15.7677"   iyz="0.0" 
+               izz="15.7759"/>
+    </inertial>
+  </link>
+
+  <joint name="base_joint" type ="fixed">
+    <parent link="footprint_link"/>
+    <child link="base_link"/>
+  </joint>
+
+</robot>

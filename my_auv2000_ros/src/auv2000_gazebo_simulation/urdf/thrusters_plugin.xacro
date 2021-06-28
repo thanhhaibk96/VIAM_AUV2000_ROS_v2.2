@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="thrusters_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="thrusters_plugin" filename="libthrusters_plugin.so">
+      <robotNamespace> auv </robotNamespace>
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <setArmingService> command/set_Arming </setArmingService>
+      <cmdTopic> thrust/cmd </cmdTopic>
+	  <pubTopic> thrust/speed </pubTopic>
+      <cmdKeyboardTopic> thrust/keyboard_cmd </cmdKeyboardTopic>
+      <thruster>
+      	<linkName> propeller_link </linkName>
+      	<propJointName> propeller_joint </propJointName>
+      	<mappingType> 1 </mappingType>
+      	<maxForceFwd> 250.0 </maxForceFwd>
+      	<maxForceRev> -100.0 </maxForceRev>
+      	<pwmDr> -0.05 </pwmDr>
+    	</thruster>
+    </plugin>
+  </gazebo>
+
+</robot>

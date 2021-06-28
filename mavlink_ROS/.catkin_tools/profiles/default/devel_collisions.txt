@@ -1,0 +1,2 @@
+/home/hai_bker96/AUV_GUI/mavlink_ros/devel/./cmake.lock 3
+/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/./cmake.lock 7

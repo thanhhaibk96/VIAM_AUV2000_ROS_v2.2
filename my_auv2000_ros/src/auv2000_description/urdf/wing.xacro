@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot name="wing" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!-- Written by Ngo An Thuyen HCMUT - ViamLab 3-15-2021-->
+
+<!-- AUV NOSE -->
+  <link name="wing_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://auv2000_description/dae/wing.dae"/>
+      </geometry>
+    </visual>
+    <!-- AUV WING/FIN -->
+    <collision name="WING">
+      <origin xyz="0.22 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size ="0.72 1.545 0.024" />
+      </geometry>
+    </collision>
+
+    <inertial>
+      <origin xyz="0 0 0" rpy=" 0 0 0"/>
+      <mass value="2.860829211"/>
+      <inertia ixx="0.628640291364812" ixy="0.0" ixz="0.0" 
+               iyy="2.952798617930214" iyz="0.0" 
+               izz="3.581216302633036"/>
+    </inertial>
+  </link>
+
+  <joint name="wing_joint" type ="fixed">
+    <origin xyz="-0.12 0 0" rpy="0 0 0" />
+    <parent link="base_link"/>
+    <child link="wing_link"/>
+  </joint>
+
+</robot>

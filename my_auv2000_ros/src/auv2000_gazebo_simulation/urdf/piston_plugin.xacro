@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="piston_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="piston_plugin" filename="libpiston_plugin.so">
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <setPistonService> command/set_Piston </setPistonService>
+      <cmdTopic> piston/cmd </cmdTopic>
+      <pubTopic> piston/position </pubTopic>
+      <cmdKeyboardTopic> piston/keyboard_cmd </cmdKeyboardTopic>
+      <piston>
+      	<linkName> piston_link </linkName>
+      	<pistonJointName> piston_joint </pistonJointName>
+      	<upperLimit> 0.08 </upperLimit>
+      	<lowerLimit> 0 </lowerLimit>
+    	</piston>>
+    </plugin>
+  </gazebo>
+</robot>

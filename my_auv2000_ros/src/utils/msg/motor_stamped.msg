@@ -1,0 +1,7 @@
+float32 position
+float32 motor_duty
+float32 motor_temp_on_chip
+float32 motor_temp_ambient
+float32 motor_current
+float32 motor_rspeed
+float32 motor_dspeed

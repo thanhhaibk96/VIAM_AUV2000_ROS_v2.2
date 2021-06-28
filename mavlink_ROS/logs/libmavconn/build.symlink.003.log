@@ -1,0 +1,21 @@
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavconn.so
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/pkgconfig/libmavconn.pc
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/cmake.lock, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconn-extras.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/lib/libmavconn.so, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavconn.so)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/libmavconn.pc)
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavconn.so
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/libmavconn.pc
+Already unlinked: {}

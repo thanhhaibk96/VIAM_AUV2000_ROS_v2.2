@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="dvl_plugin"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name="dvl_plugin" filename="libdvl_plugin.so" >
+      <updateRate> 5.0 </updateRate>
+      <topicName> dvl </topicName>
+      <bodyName> footprint_link </bodyName>
+      <velStdDev> 0.000 </velStdDev>
+    </plugin>
+  </gazebo>
+
+</robot>

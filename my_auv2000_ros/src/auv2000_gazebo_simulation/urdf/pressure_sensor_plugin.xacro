@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="pressure_plugin"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+      <plugin name="pressure_sensor_plugin" filename="libpressure_sensor_plugin.so">
+        <bodyName> footprint_link </bodyName>>
+        <topicName>keller_pa3/pressure</topicName> <!-- (string): name of the sensor output topic and prefix of service names (defaults to imu) -->
+        <update_rate> 50 </update_rate> <!-- Update period of accelerometer and gyroscope [s] -->
+        <saturation> 1000000 </saturation> <!-- measurement range [Bar] -->
+        <standard_pressure> 1 </standard_pressure> ba
+        <!-- pressure at sea level (depth 0 m) [kPa] -->
+        <bar_per_meter> 0.1 </bar_per_meter> <!-- increase in pressure [Bar] per [m] in increased depth -->
+        <gaussianNoise> 0.0001 </gaussianNoise>>
+      </plugin>
+  </gazebo>
+</robot>

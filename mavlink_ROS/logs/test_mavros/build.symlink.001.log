@@ -1,0 +1,21 @@
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/libmavros_sitl_test.so
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/test_mavros/sitl_test_node
+Symlinking /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel/lib/pkgconfig/test_mavros.pc
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/cmake.lock, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig.cmake)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/libmavros_sitl_test.so, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_sitl_test.so)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/test_mavros/sitl_test_node, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/test_mavros/sitl_test_node)
+Cleaning: (/home/hai_bker96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc, /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/test_mavros.pc)
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_sitl_test.so
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/test_mavros/sitl_test_node
+Already unlinked: {}
+Unlinking: /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/test_mavros.pc
+Already unlinked: {}

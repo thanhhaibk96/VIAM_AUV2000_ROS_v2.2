@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="gps-ins-dvl_filter"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name="gps_ins_dvl" filename="libgps_ins_dvl.so" >
+      <topicName> my_auv2000_sensors/gps_dvl_ins_data </topicName>
+      <bodyName> footprint_link </bodyName>
+      <nedLat> 10.763915776641571 </nedLat>
+      <nedLon> 106.65688877139627 </nedLon>
+    </plugin>
+  </gazebo>
+
+</robot>

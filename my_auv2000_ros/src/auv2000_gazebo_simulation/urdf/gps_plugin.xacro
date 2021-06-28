@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot name="gps_plugin"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo reference="gps_ins_point_link">
+    <sensor type="gps" name="gps" >
+      <always_on> true </always_on>
+      <visualize> false </visualize>
+      <update_rate> 10.0 </update_rate>
+      <gps>
+        <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <mean> 0.0 </mean>
+              <stddev> 0.0 </stddev>
+              <bias_mean> 0.0 </bias_mean>
+              <bias_stddev> 0.0 </bias_stddev>
+            </noise>
+          </horizontal>
+          <vertical>
+            <noise type="gaussian">
+              <mean> 0.0 </mean>
+              <stddev> 0.0 </stddev>
+              <bias_mean> 0.0 </bias_mean>
+              <bias_stddev> 0.0 </bias_stddev>
+            </noise>
+          </vertical>
+        </position_sensing>
+        <velocity_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <mean> 0.0 </mean>
+              <stddev> 0.0 </stddev>
+              <bias_mean> 0.0 </bias_mean>
+              <bias_stddev> 0.0 </bias_stddev>
+            </noise>
+          </horizontal>
+          <vertical>
+            <noise type="gaussian">
+              <mean> 0.0 </mean>
+              <stddev> 0.0 </stddev>
+              <bias_mean> 0.0 </bias_mean>
+              <bias_stddev> 0.0 </bias_stddev>
+            </noise>
+          </vertical>
+        </velocity_sensing>
+      </gps>
+      
+      <plugin name="gps_plugin" filename="libgps_plugin.so">
+        <topicName> gps/fix </topicName>
+        <velocityTopicName> gps/fix_vel </velocityTopicName>
+        <frameName> gps_ins_point_link </frameName>
+        <offset> 0.0 </offset>
+        <drift> 0.05 </drift>
+        <driftFrequency> 0.000278 </driftFrequency>
+        <gaussianNoise> 0.01 </gaussianNoise>
+        <velocityOffset> 0.0 </velocityOffset>
+        <velocityDrift> 0.0 </velocityDrift>
+        <velocityDriftFrequency> 0.0 </velocityDriftFrequency>
+        <velocityGaussianNoise> 0.0 </velocityGaussianNoise>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>

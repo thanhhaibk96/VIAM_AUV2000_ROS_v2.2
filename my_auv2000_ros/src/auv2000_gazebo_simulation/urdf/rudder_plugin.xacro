@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot name="rudder_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="rudder_plugin" filename="librudder_plugin.so">
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <setRudderService> command/set_rudder </setRudderService>
+      <cmdTopic> rudder/cmd </cmdTopic>
+      <pubTopic> rudder/position </pubTopic>
+      <cmdKeyboardTopic> rudder/keyboard_cmd </cmdKeyboardTopic>
+     <rudder>
+      	<linkName> rudder_link </linkName>
+      	<rudderJointName> rudder_joint </rudderJointName>
+      	<upperLimit> 0.7 </upperLimit>
+      	<lowerLimit> -0.7 </lowerLimit>
+        
+        <xuudd> -10.060862499999997 </xuudd>
+        <xuvd> -3.822121663749999 </xuvd>
+        <xurd> 5.236941915958013 </xurd>
+        <yuudd> -11.590855414746541 </yuudd>
+        <yuvd> -4.403365972062211 </yuvd>
+        <yurd> 6.033343221149786 </yurd>
+    	</rudder>
+    </plugin>
+  </gazebo>
+
+</robot>

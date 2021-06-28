@@ -1,0 +1,3 @@
+float32 alt_in_metres
+float32 alt_in_fathoms
+float32 alt_in_feet

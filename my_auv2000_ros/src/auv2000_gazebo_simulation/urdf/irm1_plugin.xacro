@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="irm1_plugin" 
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo>
+    <plugin name="irm1_plugin" filename="libirm1_plugin.so">
+      <cmdTimeout> 1.0 </cmdTimeout>
+      <setIRM1Service> command/set_IRM1 </setIRM1Service>
+      <cmdTopic> irm1/cmd </cmdTopic>
+      <pubTopic> irm1/position </pubTopic>
+      <cmdKeyboardTopic> irm1/keyboard_cmd </cmdKeyboardTopic>
+      <irm1>
+      	<linkName> irm1_link </linkName>
+      	<irm1JointName> irm1_joint </irm1JointName>
+      	<upperLimit> 0.53 </upperLimit>
+      	<lowerLimit> -0.53 </lowerLimit>
+    	</irm1>>
+    </plugin>
+  </gazebo>
+</robot>

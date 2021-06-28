@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="arm2"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name=" arm2_plugin" filename="libarm2_plugin.so" >
+      <topicName> my_auv2000_actuators/arm2 </topicName>
+      <bodyName> footprint_link </bodyName>
+    </plugin>
+  </gazebo>
+
+</robot>

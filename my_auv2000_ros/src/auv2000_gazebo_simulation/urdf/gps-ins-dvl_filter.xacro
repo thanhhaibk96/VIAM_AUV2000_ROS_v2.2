@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="gps-ins-dvl_filter"
+       xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name="gps-ins-dvl_filter" filename="libgps-ins-dvl_filter.so" >
+      <topicName> odom </topicName>
+      <bodyName> footprint_link </bodyName>
+      <nedLat> 10.763915776641571 </nedLat>
+      <nedLon> 106.65688877139627 </nedLon>
+    </plugin>
+  </gazebo>
+
+</robot>

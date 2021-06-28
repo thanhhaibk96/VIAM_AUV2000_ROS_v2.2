@@ -1,0 +1,80 @@
+[  8%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+[  8%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+[ 12%] [34m[1mGenerating slugs-v2.0-cxx-stamp[0m
+[ 16%] [34m[1mGenerating viam_auv2000-v2.0-cxx-stamp[0m
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/viam_auv2000.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/slugs.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/viam_auv2000.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/slugs.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 1
+ERROR: Duplicate enum values:
+	MAV_DATA_STREAM.MAV_DATA_STREAM_PROPULSION = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml:114
+	MAV_DATA_STREAM.MAV_DATA_STREAM_RAW_SENSORS = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml:2807
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 1
+ERROR: Duplicate enum values:
+	MAV_DATA_STREAM.MAV_DATA_STREAM_PROPULSION = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml:114
+	MAV_DATA_STREAM.MAV_DATA_STREAM_RAW_SENSORS = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml:2807
+CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:62: recipe for target 'matrixpilot-v2.0-cxx-stamp' failed
+make[2]: *** [matrixpilot-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/matrixpilot.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 1
+ERROR: Duplicate enum values:
+	MAV_DATA_STREAM.MAV_DATA_STREAM_PROPULSION = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml:114
+	MAV_DATA_STREAM.MAV_DATA_STREAM_RAW_SENSORS = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml:2807
+CMakeFiles/uAvionix.xml-v2.0.dir/build.make:62: recipe for target 'uAvionix-v2.0-cxx-stamp' failed
+make[2]: *** [uAvionix-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/uAvionix.xml-v2.0.dir/all] Error 2
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/uAvionix.xml-v2.0.dir/all' failed
+CMakeFiles/slugs.xml-v2.0.dir/build.make:62: recipe for target 'slugs-v2.0-cxx-stamp' failed
+make[2]: *** [slugs-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:141: recipe for target 'CMakeFiles/slugs.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/slugs.xml-v2.0.dir/all] Error 2
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_DATA_STREAM
+Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 1
+ERROR: Duplicate enum values:
+	MAV_DATA_STREAM.MAV_DATA_STREAM_PROPULSION = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/autoquad.xml:114
+	MAV_DATA_STREAM.MAV_DATA_STREAM_RAW_SENSORS = 1 @ /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src/mavlink/message_definitions/v1.0/common.xml:2807
+CMakeFiles/viam_auv2000.xml-v2.0.dir/build.make:62: recipe for target 'viam_auv2000-v2.0-cxx-stamp' failed
+make[2]: *** [viam_auv2000-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/viam_auv2000.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/viam_auv2000.xml-v2.0.dir/all] Error 2
+Makefile:117: recipe for target 'all' failed
+make: *** [all] Error 2

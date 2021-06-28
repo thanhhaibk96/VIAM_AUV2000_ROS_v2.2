@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<launch>
+   <arg name="enable_gcs_transceiver" default="true" />
+  <arg name="enable_controller" default="true" />
+  <arg name="init_x" default="0" />
+  <arg name="init_y" default="0" />
+  <arg name="init_z" default="0" />
+  <arg name="init_R" default="0.0" />
+  <arg name="init_P" default="0.0" />
+  <arg name="init_Y" default="0.0" />
+  <arg name="model_name" default="auv" />
+  <arg name="ned_lat" default=" 0"/>
+  <arg name="ned_lon" default= "0"/>
+  <arg name="url" default="udp://localhost:14551@localhost:14550" />
+  <arg name="sysid" default="1" />
+
+  <param name="ned_lat" value="10.763915776641571" />
+  <param name="ned_lon" value="106.65688877139627" />
+  
+  <param name="robot_description"
+         command="$(find xacro)/xacro '$(find auv2000_gazebo_simulation)/urdf/model_with_plugins.xacro'"/>
+
+  <node pkg="auv2000_gazebo_simulation" type="model_spawner.py"
+        name="model_spawner" output="screen"
+        args="-x $(arg init_x) -y $(arg init_y) -z $(arg init_z)
+              -R $(arg init_R) -P $(arg init_P) -Y $(arg init_Y)
+              -param robot_description -urdf -model $(arg model_name)" />
+              <!--
+  <node pkg="joint_state_publisher" type="joint_state_publisher" 
+        name="joint_publisher" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher"
+        name="tf_publisher" />
+      -->
+
+
+  <group if="$(arg enable_gcs_transceiver)">
+    <node pkg="gcs_transceiver" type="gcs_transceiver" 
+          name="gcs_transceiver" >
+      <param name="main_period" value="1.0" />
+      <param name="main_url" value="$(arg url)" />
+      <param name="autopilot_sysid" value="$(arg sysid)" />
+      <param name="gcs_sysid" value="255" />
+    </node>
+  </group>
+
+
+
+ <group if="$(arg enable_controller)">
+    <node pkg="auv2000_control" type="auv2000_control" 
+          name="auv2000_control" output="screen" >
+      <param name="roll_Kp" value="1.75" />
+      <param name="roll_Ki" value="1.25"/>
+      <param name="roll_Kd" value="2" />
+
+      <param name = "ned_lat" value = "10.763915776641571"/>
+      <param name = "ned_lon" value = "106.65688877139627"/>
+    </node>
+  </group>
+
+
+
+</launch>

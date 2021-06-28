@@ -1,0 +1,8 @@
+prefix=/home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/install
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 1.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs

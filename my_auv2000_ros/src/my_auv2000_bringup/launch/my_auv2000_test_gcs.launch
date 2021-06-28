@@ -1,0 +1,22 @@
+<launch>
+  <param name="max_angle_rudder" value="60" />
+  <param name="max_thrust_speed" value="1000" />
+  <param name="max_pistol_dutycycle" value="40" />
+  <param name="step_pistol_dutycycle" value="20" />
+  <param name="max_mass_dutycycle" value="50" />
+  <param name="step_mass_dutycycle" value="20" />
+
+  <node pkg="gcs_transceiver" type="gcs_transceiver"
+        name="gcs_transceiver" output="screen" >
+    <param name="main_period" value="1" />
+    <param name="main_url" value="udp://127.0.0.1:14551@127.0.0.1:14550" />
+    <param name="autopilot_sysid" value="1" />
+    <param name="gcs_sysid" value="255" />
+  </node>
+
+  <node pkg="my_auv2000_actuators" type="my_auv2000_actuators"
+        name="my_auv2000_actuators" output="screen" >
+    <param name="can_device" value="can0" />
+    <param name="sample_time" value="0.5" />
+  </node>
+</launch>

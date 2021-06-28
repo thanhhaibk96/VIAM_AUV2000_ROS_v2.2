@@ -1,0 +1,23 @@
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/libmavros_sitl_test.so
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/test_mavros/sitl_test_node
+Symlinking /home/hai_bker96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/test_mavros.pc
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/cmake.lock, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./cmake.lock)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/libmavros_sitl_test.so, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavros_sitl_test.so)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/test_mavros.pc)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/lib/test_mavros/sitl_test_node, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/test_mavros/sitl_test_node)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig.cmake)
+Cleaning: (/home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake, /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake)
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/./cmake.lock
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/libmavros_sitl_test.so
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/pkgconfig/test_mavros.pc
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/lib/test_mavros/sitl_test_node
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+Already unlinked: {}
+Unlinking: /home/thanhhaibk96/AUV_GUI/mavlink_ros/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+Already unlinked: {}

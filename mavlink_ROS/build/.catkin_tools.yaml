@@ -1,0 +1,6 @@
+devel_space: /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/devel
+install: false
+install_space: /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/install
+profile: default
+source_space: /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS/src
+workspace: /home/hai_bker96/VIAM_AUV2000_ROS/mavlink_ROS

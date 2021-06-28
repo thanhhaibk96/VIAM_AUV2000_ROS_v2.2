@@ -1,0 +1,8 @@
+make[2]: *** [uAvionix-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/uAvionix.xml-v2.0.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [slugs-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/slugs.xml-v2.0.dir/all] Error 2
+make[2]: *** [matrixpilot-v2.0-cxx-stamp] Error 1
+make[1]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/all] Error 2
+make: *** [all] Error 2
